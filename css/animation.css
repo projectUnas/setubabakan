@@ -1,0 +1,11 @@
+.search-btn{
+  margin-top: 6px;
+  color: white;
+}
+.search-btn:hover{
+  color: orange;
+  cursor: pointer;
+}
+.item{
+  display: none;
+}

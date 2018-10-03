@@ -29,7 +29,7 @@
             </a>
           </li>
         </ul>
-        <p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
+        <p class="copyright text-muted"  >Copyright &copy; Your Website 2018</p>
       </div>
     </div>
   </div>
@@ -41,6 +41,15 @@
 
 <!-- Custom scripts for this template -->
 <script src="js/clean-blog.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+  $('#hide_element').click(function() {
+    $(this).siblings(".item").toggle("slide");
+  });
+});
+</script>
 
 </body>
 
