@@ -9,3 +9,13 @@
 .item{
   display: none;
 }
+.caraousel-posisiton{
+  height: 620px;
+  margin-bottom: 150px;
+}
+.craousel-img{
+  height: 670px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
